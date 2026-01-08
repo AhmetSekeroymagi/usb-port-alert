@@ -1,0 +1,6 @@
+wmi
+sounddevice
+numpy
+opencv-python
+pycaw
+comtypes
