@@ -24,6 +24,29 @@ Bu proje aşağıdaki Python kütüphanelerinden güç alır:
 Projeyi bilgisayarınıza klonlayın ve gerekli kütüphaneleri yükleyin:
 
 ```bash
-git clone [https://github.com/AhmetSekeroymagi/usb-port-alert.git](https://github.com/AhmetSekeroymagi/usb-port-alert.git)
+git clone https://github.com/AhmetSekeroymagi/usb-port-alert.git
 cd usb-port-alert
 pip install -r requirements.txt
+```
+
+## ▶️ Kullanım
+
+Programı çalıştırmak için terminalde şu komutu girin:
+
+```bash
+python main.py
+```
+
+Program başladığında:
+
+* **Sistemdeki ses kartlarını tarar ve dahili hoparlörü tespit eder.
+* **Kamerayı test etmek için bir adet başlangıç fotoğrafı çeker.
+* **Mevcut USB cihazlarını "Güvenli" olarak işaretler.
+* **Arka planda izlemeye başlar.
+
+Çıkış yapmak için terminalde (`CTRL+C`)tuşlarına basabilirsiniz.
+
+## ⚠️ Yasal Uyarı
+
+Bu yazılım kişisel veri güvenliği ve hırsızlık önleme amacıyla eğitim amaçlı geliştirilmiştir. İzinsiz ses veya görüntü kaydı, bulunduğunuz ülkenin yasalarına göre suç teşkil edebilir. Kullanım sorumluluğu kullanıcıya aittir.
+  
